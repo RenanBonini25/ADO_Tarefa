@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<TextView
+		android:text="Nome da tarefa"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+		android:textColor="#ff000000"
+		android:padding="5dp" />
+	<EditText
+		android:id="@+id/edittext"
+		android:layout_width="match_parent"
+		android:imeOptions="actionGo"
+		android:inputType="text"
+		android:layout_height="42.0dp" />
+	<TextView
+		android:text="Data da tarefa"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="45.5dp"
+		android:id="@+id/textView2"
+		android:textColor="#ff000000"
+		android:padding="5dp" />
+	<DatePicker
+		android:layout_width="match_parent"
+		android:layout_height="321.5dp"
+		android:id="@+id/datePicker1" />
+	<Button
+		android:text="Adicionar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/botaoConfirmar"
+		android:background="#ff72ec6d"
+		android:layout_margin="5dp" />
+	<Button
+		android:text="Voltar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/botaoVoltar"
+		android:background="#fff0ae5e"
+		android:layout_margin="5dp" />
+</LinearLayout>
