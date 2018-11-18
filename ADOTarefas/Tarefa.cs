@@ -6,7 +6,6 @@ namespace ADOTarefas
 	{
 		public string nomeTarefa { get; set; }
 		public string dataTarefa { get; set; }
-		public string descricaoTarefa { get; set; }
 		public static List<Tarefa> listaTarefas { get; set; }
 	}
 }
